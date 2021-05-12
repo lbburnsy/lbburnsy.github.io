@@ -1,14 +1,25 @@
 body {
-    background-color: #FCF7F8
-}
-
-.hero {
-
     background-color: #FCF7F8;
 }
 
+.title {
+    color: #3b429f;
+}
+
+.hero {
+    padding-top: 20px;
+    background-color: #3b429f;
+
+}
+
+.hero-body {
+    position: relative;
+    bottom: 50px;
+}
+
 .hero p {
-    color: #3b429f!important;
+    color: #fac9b8!important;
+
 }
 
 footer {
@@ -34,11 +45,35 @@ footer i:hover {
     transition: .25s;
 }
 
-.technology-card-container {
-    border: 1px solid black;
-    border-radius: 5px;
+.technology-card {
+    background-color: #FCF7F8;
+    border: 2px solid #3b429f;
+    border-radius: 10px;
+    color: #3b429f;
+    position: relative;
+    bottom: 100px;
 }
 
-#backend-card {
-    border-right: 1px solid black;
+.technology-card-container i {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.technology-card-container h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.technology-card-container p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.purple-spacer {
+    background-color: #3b429f;
+}
+
+.recent-projects {
+
 }
