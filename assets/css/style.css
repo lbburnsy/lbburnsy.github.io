@@ -2,13 +2,12 @@ body {
     background-color: #3b429f;
 }
 
-footer {
-    height: 200px;
-    font-size: 30px;
-    color: #fac9b8;
+footer h1 {
+    color: #fac9b8!important;
 }
 
 footer i {
+    color: #fac9b8;
     padding: 20px;
     border: 1px solid #fac9b8;
     border-radius: 100%;
