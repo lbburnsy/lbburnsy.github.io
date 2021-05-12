@@ -75,14 +75,22 @@ footer i:hover {
     background-color: #3b429f;
 }
 
-.recent-projects {
-
+.tech-description {
+    color: black;
 }
 
-#sequelize-logo {
+.tech-logo {
     height: 65px;
 }
 
-#mongo-logo {
-    height: 65px;
+#bootstrap-icon {
+    color: #401F7C;
+}
+
+#html-icon {
+    color: #ffa500;
+}
+
+#css-icon {
+    color: #264de4;
 }
