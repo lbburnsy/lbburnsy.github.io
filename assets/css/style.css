@@ -1,8 +1,19 @@
 body {
-    background-color: #FCF7F8;
+    background-color: #fff5f1;
 }
 
-.title {
+nav {
+    background-color: #3b429f!important;
+    padding: 40px;
+    margin-bottom: 0!important;
+}
+
+nav a {
+    color: #fff5f1;
+    text-decoration: none;
+}
+
+.recent-projects h2 {
     color: #3b429f;
 }
 
@@ -18,7 +29,7 @@ body {
 }
 
 .hero p {
-    color: #fac9b8!important;
+    color: #fff5f1!important;
 
 }
 
@@ -27,19 +38,19 @@ footer {
 }
 
 footer h1 {
-    color: #fac9b8!important;
+    color: #fff5f1!important;
 }
 
 footer i {
-    color: #fac9b8;
+    color: #fff5f1;
     padding: 20px;
-    border: 1px solid #fac9b8;
+    border: 1px solid #fff5f1;
     border-radius: 100%;
 }
 
 footer i:hover {
     color: #3b429f;
-    background-color: #fac9b8;
+    background-color: #fff5f1;
     border: 1px solid #3b429f;
     border-radius: 100%;
     transition: .25s;
@@ -71,10 +82,6 @@ footer i:hover {
     padding-bottom: 20px;
 }
 
-.purple-spacer {
-    background-color: #3b429f;
-}
-
 .tech-description {
     color: black;
 }
@@ -93,4 +100,8 @@ footer i:hover {
 
 #css-icon {
     color: #264de4;
+}
+
+#bulma-logo {
+    height: 30px;
 }

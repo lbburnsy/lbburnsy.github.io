@@ -12,9 +12,25 @@
     ></script>
   </head>
   <body>
-    <section class="section"></section>
+    <nav class="level">
+        <p class="level-item has-text-centered">
+          <a class="link is-info">Home</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="#aboutMe"class="link is-info">About Me</a>
+        </p>
+        <!-- <p class="level-item has-text-centered">
+          <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
+        </p> -->
+        <p class="level-item has-text-centered">
+          <a href="#backend-card" class="link is-info">My Skills</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="#social" class="link is-info">Connect</a>
+        </p>
+      </nav>
 
-    <section class="hero is-halfheight has-text-centered">
+    <section class="hero is-halfheight has-text-centered" id="aboutMe">
       <div class="hero-body">
         <div class="columns is-centered has-centered-text">
           <div class="column is-6">
@@ -45,11 +61,19 @@
               <h2>Dev Tools</h2>
               <div class="columns is-centered has-text-centered">
                 <div class="column">
-                    <img src="/assets/images/javascript.svg" alt="JavaScript Logo" class="tech-logo">
+                  <img
+                    src="/assets/images/javascript.svg"
+                    alt="JavaScript Logo"
+                    class="tech-logo"
+                  />
                   <p>JavaScript</p>
                 </div>
                 <div class="column">
-                  <img src="/assets/images/nodejs.svg" alt="nodeJS logo" class="tech-logo">
+                  <img
+                    src="/assets/images/nodejs.svg"
+                    alt="nodeJS logo"
+                    class="tech-logo"
+                  />
                   <p>Node.JS</p>
                 </div>
                 <div class="column">
@@ -117,7 +141,11 @@
                   <p>Bootstrap</p>
                 </div>
                 <div class="column">
-                  <img src="/assets/images/javascript.svg" alt="JavaScript Logo" class="tech-logo">
+                  <img
+                    src="/assets/images/javascript.svg"
+                    alt="JavaScript Logo"
+                    class="tech-logo"
+                  />
                   <p>JavaScript</p>
                 </div>
               </div>
@@ -127,8 +155,15 @@
       </div>
     </section>
 
-    <section class="section recent-projects has-text-centered">
-      <h2 class="title is-2">Recent Projects:</h2>
+    <section
+      class="section recent-projects has-text-centered"
+      id="recent-projects"
+    >
+      <h2 class="title is-2 is-spaced">My Recent Work</h2>
+      <p class="subtitle">
+        Here are few of my recent projects. Want to see more?
+        <a href="lbburnsy.github.io" target="_blank">Vist my GitHub</a>
+      </p>
       <div class="columns is-centered">
         <div class="column is-4">
           <div class="card">
@@ -231,14 +266,17 @@
       </div>
     </section>
 
-    <footer class="section has-text-centered">
+    <footer class="section has-text-centered" id="social">
       <div class="container is-narrow">
         <!-- Maybe a logo could go here? -->
         <div class="columns is-centered">
           <div class="column">
-            <h1 class="title is-size-4-touch">
+            <!-- <h1 class="title is-size-4-touch">
               Industry Focused, Progress Driven
-            </h1>
+            </h1> -->
+            <h1 class="title is-size-4-touch">
+                Connect With Me:
+              </h1>
           </div>
         </div>
         <div class="columns is-mobile is-centered">
@@ -250,6 +288,15 @@
           </div>
           <div class="column is-2">
             <i class="far fa-envelope"></i>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <img
+              src="/assets/images/made-with-bulma--white.png"
+              alt="Bulma Logo"
+              id="bulma-logo"
+            />
           </div>
         </div>
       </div>
