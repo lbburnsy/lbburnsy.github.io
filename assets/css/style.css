@@ -1,4 +1,17 @@
 body {
+    background-color: #FCF7F8
+}
+
+.hero {
+
+    background-color: #FCF7F8;
+}
+
+.hero p {
+    color: #3b429f!important;
+}
+
+footer {
     background-color: #3b429f;
 }
 
@@ -19,4 +32,13 @@ footer i:hover {
     border: 1px solid #3b429f;
     border-radius: 100%;
     transition: .25s;
+}
+
+.technology-card-container {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#backend-card {
+    border-right: 1px solid black;
 }
