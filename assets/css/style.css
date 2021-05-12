@@ -55,6 +55,7 @@ footer i:hover {
 }
 
 .technology-card-container i {
+    color: rgb(56, 55, 55);
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -66,7 +67,7 @@ footer i:hover {
 }
 
 .technology-card-container p {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -76,4 +77,12 @@ footer i:hover {
 
 .recent-projects {
 
+}
+
+#sequelize-logo {
+    height: 65px;
+}
+
+#mongo-logo {
+    height: 65px;
 }
