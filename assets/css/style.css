@@ -1,0 +1,23 @@
+body {
+    background-color: #3b429f;
+}
+
+footer {
+    height: 200px;
+    font-size: 30px;
+    color: #fac9b8;
+}
+
+footer i {
+    padding: 20px;
+    border: 1px solid #fac9b8;
+    border-radius: 100%;
+}
+
+footer i:hover {
+    color: #3b429f;
+    background-color: #fac9b8;
+    border: 1px solid #3b429f;
+    border-radius: 100%;
+    transition: .25s;
+}
