@@ -13,24 +13,24 @@
   </head>
   <body>
     <nav class="level">
-        <p class="level-item has-text-centered">
-          <a class="link is-info">Home</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a href="#aboutMe"class="link is-info">About Me</a>
-        </p>
-        <!-- <p class="level-item has-text-centered">
+      <p class="level-item has-text-centered">
+        <a class="link is-info">Home</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a href="#backend-card" class="link is-info">My Skills</a>
+      </p>
+      <!-- <p class="level-item has-text-centered">
           <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
         </p> -->
-        <p class="level-item has-text-centered">
-          <a href="#backend-card" class="link is-info">My Skills</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a href="#social" class="link is-info">Connect</a>
-        </p>
-      </nav>
+      <p class="level-item has-text-centered">
+        <a href="#aboutMe" class="link is-info">About Me</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a href="#social" class="link is-info">Connect</a>
+      </p>
+    </nav>
 
-    <section class="hero is-halfheight has-text-centered" id="aboutMe">
+    <section class="hero is-halfheight has-text-centered">
       <div class="hero-body">
         <div class="columns is-centered has-centered-text">
           <div class="column is-6">
@@ -155,6 +155,50 @@
       </div>
     </section>
 
+    <section class="section" id="aboutMe">
+      <h2 class="title">Get to know me:</h2>
+      <div class="columns pt-5 mt-5">
+        <div class="column is-4">
+          <div class="image">
+            <img
+              class="is-rounded"
+              src="/assets/images/round-headshot.png"
+              alt="headshot"
+              id="headshot"
+            />
+          </div>
+        </div>
+        <div class="column"></div>
+        <div class="column is-7">
+          <p class="pb-5">
+            Originally hailing from Connecticut, my creative journey began in
+            high school, when I first picked up a camera. Photography became an
+            avid hobby. I always endeavored to become proficient in other
+            creative avenues, but given my profound lack of ability in anything
+            requiring manipulation of real world materials, that has been a
+            struggle.
+          </p>
+          <p class="pb-5">
+            Enter code. Upon the realization that (sometimes) simple commands
+            could instruct a computer to create my visions for me, I was hooked.
+            Through the learning process I have focused my skills primarily on
+            the back-end, and deeply enjoy finding elegant solutions to complex
+            problems.
+          </p>
+          <p>
+            I am passionate about all things outdoors. In my free time, you can
+            find me hiking, skiing, my favorite pastime, or working on my bus,
+            that I am converting into a mobile home to travel with.
+          </p>
+          <p>
+            I am passionate, curious, and incredibly hungry to succeed at any
+            task I undertake.
+          </p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
     <section
       class="section recent-projects has-text-centered"
       id="recent-projects"
@@ -172,7 +216,11 @@
             </div>
             <div class="card-image">
               <figure class="image is-3by2">
-                <img src="/assets/images/blog.jpg" alt="Blogger" />
+                <a
+                  href="https://safe-castle-63309.herokuapp.com/"
+                  target="_blank"
+                  ><img src="/assets/images/blog.jpg" alt="Blogger"
+                /></a>
               </figure>
             </div>
             <div class="card-content">
@@ -204,7 +252,9 @@
             </div>
             <div class="card-image">
               <figure class="image is-3by2">
-                <img src="/assets/images/desk.jpg" alt="Work desk" />
+                <a href="https://remote-recruit.herokuapp.com" target="_blank"
+                  ><img src="/assets/images/desk.jpg" alt="Work desk"
+                /></a>
               </figure>
             </div>
             <div class="card-content">
@@ -236,7 +286,11 @@
             </div>
             <div class="card-image">
               <figure class="image is-3by2">
-                <img src="/assets/images/rain.jpg" alt="Work desk" />
+                <a
+                  href="https://lbburnsy.github.io/weather-dashboard/"
+                  target="_blank"
+                  ><img src="/assets/images/rain.jpg" alt="Work desk"
+                /></a>
               </figure>
             </div>
             <div class="card-content">
@@ -268,35 +322,36 @@
 
     <footer class="section has-text-centered" id="social">
       <div class="container is-narrow">
-        <!-- Maybe a logo could go here? -->
         <div class="columns is-centered">
           <div class="column">
-            <!-- <h1 class="title is-size-4-touch">
-              Industry Focused, Progress Driven
-            </h1> -->
-            <h1 class="title is-size-4-touch">
-                Connect With Me:
-              </h1>
+            <h1 class="title is-size-4-touch">Connect With Me:</h1>
           </div>
         </div>
         <div class="columns is-mobile is-centered">
           <div class="column is-2">
-            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/luc-burns/" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
           </div>
           <div class="column is-2">
-            <i class="fab fa-github"></i>
+            <a href="https://github.com/lbburnsy" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
           </div>
           <div class="column is-2">
-            <i class="far fa-envelope"></i>
+            <a href="mailto:burnsluc2@gmail.com" target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
           </div>
         </div>
         <div class="columns">
           <div class="column">
-            <img
-              src="/assets/images/made-with-bulma--white.png"
-              alt="Bulma Logo"
-              id="bulma-logo"
-            />
+            <a href="https://bulma.io/" target="_blank"
+              ><img
+                src="/assets/images/made-with-bulma--white.png"
+                alt="Bulma Logo"
+                id="bulma-logo"
+            /></a>
           </div>
         </div>
       </div>

@@ -25,12 +25,16 @@ nav a {
 
 .hero-body {
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 .hero p {
     color: #fff5f1!important;
 
+}
+
+#headshot {
+    width: 400px ;
 }
 
 footer {
@@ -62,7 +66,7 @@ footer i:hover {
     border-radius: 10px;
     color: #3b429f;
     position: relative;
-    bottom: 100px;
+    bottom: 125px;
 }
 
 .technology-card-container i {
