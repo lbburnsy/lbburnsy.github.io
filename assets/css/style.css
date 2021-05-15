@@ -2,7 +2,9 @@ body {
     background-color: #fff5f1;
 }
 
-
+nav {
+    padding: 10px;
+}
 
 nav, #nav-links {
     background-color: #3b429f!important;
@@ -12,6 +14,11 @@ nav a {
     font-size: 20px;
     color: #fff5f1!important;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffa500!important;
+    background-color: #3b429f!important;
 }
 
 .recent-projects h2 {
