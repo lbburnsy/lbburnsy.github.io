@@ -11,23 +11,27 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <nav class="level">
-      <p class="level-item has-text-centered">
-        <a class="link is-info">Home</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a href="#backend-card" class="link is-info">My Skills</a>
-      </p>
-      <!-- <p class="level-item has-text-centered">
-          <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
-        </p> -->
-      <p class="level-item has-text-centered">
-        <a href="#aboutMe" class="link is-info">About Me</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a href="#social" class="link is-info">Connect</a>
-      </p>
+  <body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="#" class="navbar-item"></a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-links">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+    
+          <div class="navbar-menu" id="nav-links">
+            <div class="navbar-start">
+              <a href="#backend-card" class="navbar-item">My Skills</a>
+              <a href="#aboutMe" class="navbar-item">About Me</a>
+              <a href="#social" class="navbar-item">Connect</a>
+            </div>
+          </div>
+        </div>
     </nav>
 
     <section class="hero is-halfheight has-text-centered">
@@ -50,7 +54,7 @@
 
     <section class="section has-text-centered">
       <div class="columns is-mobile is-centered">
-        <div class="column is-8 technology-card-container">
+        <div class="column is-8 technology-card-container" >
           <div class="columns is-centered has-text-centered">
             <div class="column is-6 technology-card" id="backend-card">
               <i class="fas fa-sitemap"></i>
@@ -59,10 +63,14 @@
                 I value organized databases and succinct, elegant path structure
               </p>
               <h2>Dev Tools</h2>
-              <div class="columns
-              is-multiline is-centered
-              has-text-centered
-              is-flex-mobile">
+              <div
+                class="
+                  columns
+                  is-multiline is-centered
+                  has-text-centered
+                  is-flex-mobile
+                "
+              >
                 <div
                   class="
                     column
@@ -78,7 +86,8 @@
                 </div>
                 <div
                   class="
-                    column is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile
+                    column
+                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile
                   "
                 >
                   <img
@@ -88,11 +97,21 @@
                   />
                   <p>Node.JS</p>
                 </div>
-                <div class="column is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile">
+                <div
+                  class="
+                    column
+                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile
+                  "
+                >
                   <i class="fas fa-server"></i>
                   <p>Express.JS</p>
                 </div>
-                <div class="column is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile">
+                <div
+                  class="
+                    column
+                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile
+                  "
+                >
                   <img
                     src="/assets/images/MongoDB_Leaf_FullColor_RGB.svg"
                     alt="MongoDb Leaf"
@@ -100,7 +119,12 @@
                   />
                   <p>MongoDB</p>
                 </div>
-                <div class="column is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile">
+                <div
+                  class="
+                    column
+                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile
+                  "
+                >
                   <img
                     src="/assets/images/logo-mysql-170x115.png"
                     alt="MySQL Logo"
@@ -108,7 +132,12 @@
                   />
                   <p>MySQL</p>
                 </div>
-                <div class="column is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile">
+                <div
+                  class="
+                    column
+                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-6-mobile
+                  "
+                >
                   <img
                     src="/assets/images/sequelize-icon.svg"
                     alt="Sequelize logo"
@@ -251,7 +280,7 @@
         <a href="lbburnsy.github.io" target="_blank">Visit my GitHub</a>
       </p>
       <div class="columns is-centered">
-        <div class="column is-4">
+        <!-- <div class="column is-4">
           <div class="card">
             <div class="card-header">
               <p class="card-header-title">Tech Blog</p>
@@ -286,7 +315,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="column is-4">
           <div class="card">
             <div class="card-header">
@@ -398,5 +427,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
