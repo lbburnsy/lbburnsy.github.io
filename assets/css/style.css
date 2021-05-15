@@ -16,10 +16,17 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover  {
     color: #ffa500!important;
     background-color: #3b429f!important;
 }
+
+a:active {
+    color: #ffa500!important;
+    background-color: #3b429f!important;
+}
+
+
 
 .recent-projects h2 {
     color: #3b429f;
