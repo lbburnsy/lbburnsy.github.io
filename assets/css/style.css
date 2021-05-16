@@ -21,8 +21,7 @@ nav a:hover  {
     background-color: #3b429f!important;
 }
 
-a:active {
-    color: #ffa500!important;
+nav a:active {
     background-color: #3b429f!important;
 }
 
@@ -81,7 +80,7 @@ footer i:hover {
     border-radius: 10px;
     color: #3b429f;
     position: relative;
-    bottom: 125px;
+    bottom: 110px;
 }
 
 .technology-card-container i {
