@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Online Portfolio for Luc Burns">
+    <meta name="description" content="Online Portfolio for Luc Burns" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/bulma.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -13,26 +13,36 @@
     ></script>
   </head>
   <body class="has-navbar-fixed-top">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="container">
-          <div class="navbar-brand">
-            <!-- <a href="#" class="navbar-item"></a> -->
-    
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-links">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-    
-          <div class="navbar-menu" id="nav-links">
-            <div class="navbar-start">
-              <a href="#backend-card" class="navbar-item">My Skills</a>
-              <a href="#aboutMe" class="navbar-item">About Me</a>
-              <a href="#social" class="navbar-item">Connect</a>
-            </div>
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container">
+        <div class="navbar-brand">
+          <!-- <a href="#" class="navbar-item"></a> -->
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="nav-links"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+          <div class="navbar-start">
+            <a href="#backend-card" class="navbar-item">My Skills</a>
+            <a href="#aboutMe" class="navbar-item">About Me</a>
+            <a href="#social" class="navbar-item">Connect</a>
           </div>
         </div>
+      </div>
     </nav>
 
     <section class="hero is-halfheight has-text-centered">
@@ -47,7 +57,11 @@
               passion. I am confident, curious, and driven. I cannot wait to
               work with you.
             </p>
-            <a href="/assets/pdf/resume-burns.pdf" download="Resume-LucBurns"><button class="button is-primary is-rounded">View My Resume</button></a>
+            <a href="/assets/pdf/resume-burns.pdf" download="Resume-LucBurns"
+              ><button class="button is-primary is-rounded">
+                View My Resume
+              </button></a
+            >
           </div>
         </div>
       </div>
@@ -55,13 +69,14 @@
 
     <section class="section has-text-centered">
       <div class="columns is-mobile is-centered">
-        <div class="column is-8 technology-card-container" >
+        <div class="column is-8 technology-card-container">
           <div class="columns is-centered has-text-centered">
             <div class="column is-6 technology-card" id="backend-card">
               <i class="fas fa-sitemap"></i>
               <h2>Back-End</h2>
               <p class="tech-description">
-                I value organized databases and succinct, elegant path structure
+                I value organized databases and succinct, elegant path
+                structure.
               </p>
               <h2>Dev Tools</h2>
               <div
@@ -191,6 +206,19 @@
                   "
                 >
                   <img
+                    src="/assets/images/javascript.svg"
+                    alt="JavaScript Logo"
+                    class="tech-logo"
+                  />
+                  <p>JavaScript</p>
+                </div>
+                <div
+                  class="
+                    column
+                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-5-mobile
+                  "
+                >
+                  <img
                     src="/assets/images/bulma.svg"
                     alt="Sequelize logo"
                     class="tech-logo"
@@ -207,19 +235,6 @@
                   <i class="fab fa-bootstrap" id="bootstrap-icon"></i>
                   <p>Bootstrap</p>
                 </div>
-                <div
-                  class="
-                    column
-                    is-4 is-4-fullhd is-4-desktop is-6-tablet is-5-mobile
-                  "
-                >
-                  <img
-                    src="/assets/images/javascript.svg"
-                    alt="JavaScript Logo"
-                    class="tech-logo"
-                  />
-                  <p>JavaScript</p>
-                </div>
               </div>
             </div>
           </div>
@@ -228,45 +243,46 @@
     </section>
 
     <section class="section" id="aboutMe">
-      <h2 class="title">Get to know me:</h2>
-      <div class="columns pt-5 mt-5">
-        <div class="column is-4">
-          <div class="image">
-            <img
-              class="is-rounded"
-              src="/assets/images/round-headshot.png"
-              alt="headshot"
-              id="headshot"
-            />
+      <div class="container">
+        <h2 class="title">Get to know me:</h2>
+        <div class="columns pt-5 mt-5">
+          <div class="column is-4">
+            <div class="image">
+              <img
+                class="is-rounded"
+                src="/assets/images/round-headshot.png"
+                alt="headshot"
+                id="headshot"
+              />
+            </div>
           </div>
-        </div>
-        <div class="column"></div>
-        <div class="column is-7">
-          <p class="pb-5">
-            Originally hailing from Connecticut, my creative journey began in
-            high school, when I first picked up a camera. Photography became an
-            avid hobby. I always endeavored to become proficient in other
-            creative avenues, but given my profound lack of ability in anything
-            requiring manipulation of real world materials, that has been a
-            struggle.
-          </p>
-          <p class="pb-5">
-            Enter code. Upon the realization that (sometimes) simple commands
-            could instruct a computer to create my visions for me, I was hooked.
-            Through the learning process I have focused my skills primarily on
-            the back-end, and deeply enjoy finding elegant solutions to complex
-            problems.
-          </p>
-          <p>
-            I am passionate about all things outdoors. In my free time, you can
-            find me hiking, skiing, my favorite pastime, or working on my bus,
-            that I am converting into a mobile home to travel with.
-          </p>
-          <p>
-            I am passionate, curious, and incredibly hungry to succeed at any
-            task I undertake.
-          </p>
-          <p></p>
+          <div class="column"></div>
+          <div class="column is-7">
+            <p class="pb-5">
+              Originally hailing from Connecticut, my creative journey began in
+              high school, when I first picked up a camera. Photography became
+              an avid hobby. I always endeavored to become proficient in other
+              creative avenues, but given my profound lack of ability in
+              anything requiring manipulation of real world materials, that has
+              been a struggle.
+            </p>
+            <p class="pb-5">
+              Enter code. Upon the realization that (sometimes) simple commands
+              could instruct a computer to create my visions for me, I was
+              hooked. Through the learning process I have focused my skills
+              primarily on the back-end, and deeply enjoy finding elegant
+              solutions to complex problems.
+            </p>
+            <p class="pb-5">
+              I am passionate about all things outdoors. In my free time, you
+              can find me hiking, skiing, or working on my bus that I am
+              converting into a mobile home to travel with.
+            </p>
+            <p>
+              I am driven, curious, and incredibly hungry to succeed at any task
+              I undertake.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -277,46 +293,12 @@
     >
       <h2 class="title is-2 is-spaced">My Recent Work</h2>
       <p class="subtitle">
-        Here are few of my recent projects. Want to see more?
-        <a href="https://github.com/lbburnsy" target="_blank" rel="noopener">Visit my GitHub</a>
+        Here are a few of my recent projects. Want to see more?
+        <a href="https://github.com/lbburnsy" target="_blank" rel="noopener"
+          >Visit my GitHub</a
+        >
       </p>
       <div class="columns is-centered">
-        <!-- <div class="column is-4">
-          <div class="card">
-            <div class="card-header">
-              <p class="card-header-title">Tech Blog</p>
-            </div>
-            <div class="card-image">
-              <figure class="image is-3by2">
-                <a
-                  href="https://safe-castle-63309.herokuapp.com/"
-                  target="_blank"
-                  ><img src="/assets/images/blog.jpg" alt="Blogger"
-                /></a>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                A CMS style tech blog. Create an account and interact with other
-                bloggers!
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="card-footer-item">
-                <a
-                  href="https://safe-castle-63309.herokuapp.com/"
-                  target="_blank"
-                  >Visit the App</a
-                >
-              </div>
-              <div class="card-footer-item">
-                <a href="https://github.com/lbburnsy/tech-blog" target="_blank"
-                  >View Source Code</a
-                >
-              </div>
-            </div>
-          </div>
-        </div> -->
         <div class="column is-4">
           <div class="card">
             <div class="card-header">
@@ -324,20 +306,25 @@
             </div>
             <div class="card-image">
               <figure class="image is-3by2">
-                <a href="https://remote-recruit.herokuapp.com" target="_blank" rel="noopener"
+                <a
+                  href="https://remote-recruit.herokuapp.com"
+                  target="_blank"
+                  rel="noopener"
                   ><img src="/assets/images/desk.jpg" alt="Work desk"
                 /></a>
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                A full stack web app built with the user in mind. Find the
-                perfect job, or candidate, all in one place.
+                A full stack job hosting site focused on remote connections.
               </div>
             </div>
             <div class="card-footer">
               <div class="card-footer-item">
-                <a href="https://remote-recruit.herokuapp.com" target="_blank" rel="noopener"
+                <a
+                  href="https://remote-recruit.herokuapp.com"
+                  target="_blank"
+                  rel="noopener"
                   >Visit the App</a
                 >
               </div>
@@ -405,7 +392,10 @@
         </div>
         <div class="columns is-mobile is-centered">
           <div class="column is-2 is-4-mobile">
-            <a href="https://www.linkedin.com/in/luc-burns/" target="_blank" rel="noopener"
+            <a
+              href="https://www.linkedin.com/in/luc-burns/"
+              target="_blank"
+              rel="noopener"
               ><i class="fab fa-linkedin-in"></i
             ></a>
           </div>
